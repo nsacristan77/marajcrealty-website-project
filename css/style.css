@@ -10,6 +10,24 @@
   padding: 0 20px;
 }
 
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
 /* start: navbar style */
 .navbar {
   display: flex;
@@ -36,3 +54,119 @@
 /* end: Navbar style */
 
 /* start: Search container */
+#searchContainer {
+  position: relative;
+  background-image: url(../images/map.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+  margin: 0 0 10px 0;
+}
+
+.searchForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.searchForm input {
+  border: 3px solid #32e17c;
+  height: 40px;
+  width: 250px;
+  border-radius: 50px;
+  padding: 0px 10px;
+}
+
+/* start: Developers logo */
+#developersLogo {
+  width: 100%;
+  height: 80px;
+  background-color: green;
+}
+/* end: Developer logo */
+
+.amaiaGentri {
+  width: 80%;
+  background-image: url(../images/amaia2.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+  margin: auto;
+}
+
+/* start: Style for the properties */
+.properties::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.goldenHorizon {
+  position: relative;
+}
+
+.solar {
+  position: relative;
+}
+
+.amaia {
+  position: relative;
+}
+
+.imperial {
+  position: relative;
+}
+.btn1 {
+  position: absolute;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 12px 24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+.btn1:hover {
+  background-color: tomato;
+}
+img {
+  width: 100%;
+  height: 250px;
+}
+
+/* end: Style for the properties */
+.footer {
+    background-color: gray;
+}
+.footer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footerIcon img {
+  width: 35px;
+  height: 30px;
+}
+
+.footerIcon h4 {
+  margin-bottom: 10px;
+}
+
+.footerIcon span {
+  padding-right: 10px;
+}
+
+.footer2 {
+  background-color: gray;
+  border-top: 1px solid white;
+  padding: 10px;
+  text-align: center;
+}
