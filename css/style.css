@@ -10,6 +10,7 @@
   padding: 0 20px;
 }
 
+/* start: navbar style */
 .navbar {
   display: flex;
   background-color: dodgerblue;
@@ -32,3 +33,13 @@
     flex-direction: column;
   }
 }
+/* end: Navbar style */
+
+/* start: Search container */
+#searchContainer {
+  background-image: url(../images/map.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+/* end: Search container */
